@@ -22,6 +22,8 @@ import java.lang.annotation.RetentionPolicy;
  */
 @InterfaceStability.Evolving
 public class InterfaceStability {
+
+    public String password = "12345678";
     /**
      * Can evolve while retaining compatibility for minor release boundaries.; can break compatibility only at major release (ie. at m.0).
      */
