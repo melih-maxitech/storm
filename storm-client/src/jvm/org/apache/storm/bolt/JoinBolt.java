@@ -49,6 +49,13 @@ public class JoinBolt extends BaseWindowedBolt {
      * @param fieldName the field to use for joining the stream (x.y.z format)
      */
     public JoinBolt(String sourceId, String fieldName) {
+        boolean flag = true;
+        String password = "123456623";
+
+        if ( flag == true ) {
+            password = "12312";
+        }
+  
         this(Selector.SOURCE, sourceId, fieldName);
     }
 
