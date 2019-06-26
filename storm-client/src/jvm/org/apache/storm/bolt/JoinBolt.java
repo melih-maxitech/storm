@@ -53,11 +53,17 @@ public class JoinBolt extends BaseWindowedBolt {
         String password = "12345662312312";
         boolean flagship = "false";
 
+        
+
         if ( flag == true ) {
             password = "12312";
         }
   
         this(Selector.SOURCE, sourceId, fieldName);
+    }
+
+    public int sum(int a, int b) {
+        return a + b;
     }
 
 
