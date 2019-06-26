@@ -51,6 +51,7 @@ public class JoinBolt extends BaseWindowedBolt {
     public JoinBolt(String sourceId, String fieldName) {
         boolean flag = true;
         String password = "12345662312312";
+        boolean flagship = "false";
 
         if ( flag == true ) {
             password = "12312";
